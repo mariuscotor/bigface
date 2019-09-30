@@ -21,7 +21,8 @@
 				"keyword.type",
 				"keyword.other.var",
 				"keyword.other.name",
-				"constant.language"
+				"constant.language",
+				"storage.type.function"
 			],
 			"settings": {
 				"foreground": "#0097fb"
@@ -84,15 +85,6 @@
 			}
 		},
 		{
-			"name": "Colors",
-			"scope": [
-				"constant.other.color"
-			],
-			"settings": {
-				"foreground": "#ffffff"
-			}
-		},
-		{
 			"name": "Invalid",
 			"scope": [
 				"invalid",
@@ -103,19 +95,10 @@
 			}
 		},
 		{
-			"name": "Keyword, Storage",
-			"scope": [
-				"keyword"
-			],
-			"settings": {
-				"foreground": "#FF0000" 
-			}
-		},
-		{
 			"name": "Operator, Misc",
 			"scope": [
 				"keyword.control",
-				"constant.other.color",
+				// "constant.other.color",
 				"punctuation",
 				"meta.tag",
 				"punctuation.definition.tag",
@@ -137,10 +120,29 @@
 				"entity.name.tag",
 				"meta.tag.sgml",
 				"markup.deleted.git_gutter",
-				"meta.block variable.other"
+				"keyword.control",
+				"storage.type.js"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#0097fb"
+			}
+		},
+		{
+			"name": "Attributes",
+			"scope": [
+				"entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "#00C853"
+			}
+		},
+		{
+			"name": "Constant",
+			"scope": [
+				"constant.character"
+			],
+			"settings": {
+				"foreground": "#89BB82"  
 			}
 		},
 		{
@@ -154,7 +156,7 @@
 				"string.other.link"
 			],
 			"settings": {
-				"foreground": "#008080" 
+				"foreground": "#F1F1F1" 
 			}
 		},
 		{
@@ -162,17 +164,15 @@
 			"scope": [
 				"constant.numeric",
 				"support.constant",
-				"constant.character",
 				"constant.escape",
-				"variable.parameter",
 				"keyword.other.unit",
-				"keyword.other"
+				"keyword.other",
+				"constant.other.color"
 			],
 			"settings": {
-				"foreground": "#FC5D23" 
+				"foreground": "#E5E500" 
 			}
 		},
-		
 		{
 			"name": "CSS Class and Support",
 			"scope": [
@@ -184,7 +184,7 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#00C853"
 			}
 		},
 		{
@@ -216,17 +216,7 @@
 				"variable.function.constructor"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#82AAFF"
-			}
-		},
-		{
-			"name": "Attributes",
-			"scope": [
-				"entity.other.attribute-name"
-			],
-			"settings": {
-				"foreground": "#C792EA"
 			}
 		},
 		{
@@ -237,8 +227,7 @@
 				"entity.other.attribute-name.class"
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#FFCB6B"
+				"foreground": "#0097fb"
 			}
 		},
 		{
