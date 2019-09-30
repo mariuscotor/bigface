@@ -1,0 +1,21 @@
+{
+    "name": "bigface",
+    "displayName": "Bigface",
+    "description": "Bigface theme from Jun Guo.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.38.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Bigface",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Bigface-color-theme.json"
+            }
+        ]
+    }
+}
