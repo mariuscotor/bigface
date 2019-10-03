@@ -2,6 +2,7 @@
     "name": "bigface",
     "displayName": "Bigface",
     "description": "Bigface theme from Jun Guo.",
+    "publisher": "mariuscotor",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.38.0"
