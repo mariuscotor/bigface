@@ -8,3 +8,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [0.0.1] - 2019-09-30
 - First version
+
+## [0.0.2] - 2019-10-03
+- added icon for theme
+- changed background color for status bar

@@ -4,9 +4,9 @@
 	"colors": {
 		"editor.background": "#252925",
 		"editor.foreground": "#F1F1F1",
-		"activityBarBadge.background": "#00C853", 
+		"activityBarBadge.background": "#01963f", 
 		"sideBarTitle.foreground": "#F1F1F1" ,
-		"statusBar.background": "#00C853",
+		"statusBar.background": "#01963f",
 		"statusBar.foreground": "#F1F1F1",
 		"tab.activeBackground": "#0097fb"
 	},

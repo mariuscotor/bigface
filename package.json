@@ -3,10 +3,15 @@
     "displayName": "Bigface",
     "description": "Bigface theme from Jun Guo.",
     "publisher": "mariuscotor",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.38.0"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mariuscotor/bigface.git"
+    },
+    "icon": "images/logo.png",
     "categories": [
         "Themes"
     ],
