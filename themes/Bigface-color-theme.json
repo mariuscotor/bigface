@@ -8,7 +8,7 @@
 		"sideBarTitle.foreground": "#F1F1F1" ,
 		"statusBar.background": "#01963f",
 		"statusBar.foreground": "#F1F1F1",
-		"tab.activeBackground": "#0097fb"
+		"tab.activeBackground": "#546E7A"
 	},
 	"tokenColors": [
 		{
@@ -95,23 +95,29 @@
 			}
 		},
 		{
-			"name": "Operator, Misc",
+			"name": "Punctuation",
 			"scope": [
-				"keyword.control",
-				// "constant.other.color",
-				"punctuation",
-				"meta.tag",
+				// "punctuation",
 				"punctuation.definition.tag",
-				"punctuation.separator.inheritance.php",
 				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
+			],
+			"settings": {
+				"foreground": "#808080"
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				"keyword.control",
+				"meta.tag",
 				"keyword.other.template",
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -121,7 +127,9 @@
 				"meta.tag.sgml",
 				"markup.deleted.git_gutter",
 				"keyword.control",
-				"storage.type.js"
+				"storage.type.js",
+				"storage.type.ts",
+				"support.type.primitive"
 			],
 			"settings": {
 				"foreground": "#0097fb"
@@ -163,14 +171,14 @@
 			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
 			"scope": [
 				"constant.numeric",
-				"support.constant",
+				// "support.constant",
 				"constant.escape",
 				"keyword.other.unit",
 				"keyword.other",
 				"constant.other.color"
 			],
 			"settings": {
-				"foreground": "#E5E500" 
+				"foreground": "#fc5d23" 
 			}
 		},
 		{
@@ -195,7 +203,7 @@
 				"variable.other.class.js"
 			],
 			"settings": {
-				"foreground": "#FF5370"
+				"foreground": "#fc5d23"
 			}
 		},
 		{
@@ -205,7 +213,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FF5370"
+				"foreground": "#0097fb"
 			}
 		},
 		{
@@ -246,15 +254,6 @@
 			],
 			"settings": {
 				"foreground": "#C3E88D"
-			}
-		},
-		{
-			"name": "Deleted",
-			"scope": [
-				"markup.deleted"
-			],
-			"settings": {
-				"foreground": "#FF5370"
 			}
 		},
 		{
@@ -313,7 +312,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FF5370"
+				"foreground": "#fc5d23"
 			}
 		}
 	]
