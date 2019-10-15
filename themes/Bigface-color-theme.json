@@ -22,7 +22,16 @@
 				"keyword.other.var",
 				"keyword.other.name",
 				"constant.language",
-				"storage.type.function"
+				"storage.type.function",
+				"keyword.other.get.cs",
+				"keyword.other.set.cs",
+				"keyword.other.base.cs",
+				"keyword.other.is.cs",
+				"keyword.other.as.cs",
+				"keyword.other.nameof.cs",
+				"keyword.other.new.cs",
+				"keyword.other.typeof.cs",
+				"keyword.other.await.cs",
 			],
 			"settings": {
 				"foreground": "#0097fb"
@@ -35,6 +44,7 @@
 				"entity.name.function",
 				"entity.name.variable.parameter",
 				"entity.name.variable.local",
+				"entity.name.variable.property",
 				"variable"
 			],
 			"settings": {
@@ -171,7 +181,6 @@
 			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
 			"scope": [
 				"constant.numeric",
-				// "support.constant",
 				"constant.escape",
 				"keyword.other.unit",
 				"keyword.other",
