@@ -8,7 +8,7 @@
 		"sideBarTitle.foreground": "#F1F1F1" ,
 		"statusBar.background": "#01963f",
 		"statusBar.foreground": "#F1F1F1",
-		"tab.activeBackground": "#546E7A"
+		"tab.activeBackground": "#01963f82"
 	},
 	"tokenColors": [
 		{

@@ -6,15 +6,16 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Released]
 
-## [0.0.2] - 2019-10-03
-- added icon for theme
-- changed background color for status bar
-
-## [0.0.1] - 2019-09-30
-- First version
-
-## [Unreleased]
+## [0.0.4] - 2019-10-15
+- Updated color on active tab
+- Updated c# theme
 
 ## [0.0.3] - 2019-10-04
 - Fixes on html language
-- updated color on active tab
+
+## [0.0.2] - 2019-10-03
+- Added icon for theme
+- Changed background color for status bar
+
+## [0.0.1] - 2019-09-30
+- First version
