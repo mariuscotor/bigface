@@ -45,7 +45,8 @@
 				"keyword.other.DDL.create.II.sql",
 				"keyword.other.LUW.sql",
 				"keyword.other.data-integrity.sql",
-				"keyword.other.alias.sql"
+				"keyword.other.alias.sql",
+				"keyword.other.create.sql"
 			],
 			"settings": {
 				"foreground": "#0097fb"
@@ -131,7 +132,6 @@
 		{
 			"name": "Punctuation",
 			"scope": [
-				// "punctuation",
 				"punctuation.definition.tag",
 				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin.html",
