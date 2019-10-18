@@ -38,6 +38,20 @@
 			}
 		},
 		{
+			"name": "sql keys",
+			"scope": [
+				"keyword.other.sql",
+				"keyword.other.DML.sql",
+				"keyword.other.DDL.create.II.sql",
+				"keyword.other.LUW.sql",
+				"keyword.other.data-integrity.sql",
+				"keyword.other.alias.sql"
+			],
+			"settings": {
+				"foreground": "#0097fb"
+			}
+		},
+		{
 			"name": "Namespace",
 			"scope": [
 				"entity.name.type.namespace",
@@ -64,6 +78,16 @@
 				"support.type.sys-types",
 				"entity.name.type.class",
 				"storage.type"
+			],
+			"settings": {
+				"foreground": "#00C853" 
+			}
+		},
+		{
+			"name": "Sql functions",
+			"scope": [
+				"support.function.datetime.sql",
+				"support.function.sql"
 			],
 			"settings": {
 				"foreground": "#00C853" 
