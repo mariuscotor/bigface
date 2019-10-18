@@ -6,6 +6,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Released]
 
+## [0.0.5] - 2019-10-18
+- Added support for sql files
+
 ## [0.0.4] - 2019-10-15
 - Updated color on active tab
 - Updated c# theme
