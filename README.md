@@ -1,4 +1,5 @@
 # README
+
 ## This is the Bigface theme implementation for Visual Studio Code
 
 ### Installation
